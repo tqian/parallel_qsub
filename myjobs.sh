@@ -1,0 +1,1 @@
+R CMD BATCH ~/project_folder/myjobs.R ~/project_folder/Rout/myjobs.Rout.$SGE_TASK_ID
