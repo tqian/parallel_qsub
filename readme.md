@@ -15,3 +15,6 @@ Website for the cluster: https://jhpce.jhu.edu/
 qsub -t 1:100 myjobs.sh
 ```
 Here, 1:100 means you want to submit 100 jobs. myjobs.sh is the shell script that "asks" cluster to run the corresponding R code. You can open the shell script and see there are two parts in a single line: the first part is telling the cluster what R code to run; the second part is telling the cluster where to store the Rout log file. After the job is done, you can open the Rout log files using any text editor.
+
+
+You can refer to this post by Albert Kuo (https://blog.albertkuo.me/post/submitting-parallel-jobs-on-a-cluster/) for a more detailed explanation.
